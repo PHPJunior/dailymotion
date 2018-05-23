@@ -135,6 +135,7 @@ class DailyMotion
                 'client_secret' => $this->config->get('dailymotion.client_secret'),
                 'username'      => $this->config->get('dailymotion.username'),
                 'password'      => $this->config->get('dailymotion.password'),
+                'scope'         => $this->config->get('dailymotion.scope'),
             ],
         ]);
 
@@ -148,7 +149,7 @@ class DailyMotion
      */
     public function getAccessToken()
     {
-        return cache()->remember('dailymotion_token', 60 * 60 * 6, function () {
+        return cache()->remember('dailymotion_token', 60, function () {
             return $this->requestAccessToken();
         });
     }
