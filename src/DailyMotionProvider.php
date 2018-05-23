@@ -16,7 +16,7 @@ class DailyMotionProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            $this->configPath() => config_path('dailymotion.php')
+            $this->configPath() => config_path('dailymotion.php'),
         ]);
     }
 
@@ -39,9 +39,10 @@ class DailyMotionProvider extends ServiceProvider
             $daily = new DailyMotion($config);
             $daily->setOptions([
                 'headers'  => [
-                    'Authorization' => 'Bearer ' . $daily->getAccessToken()
-                ]
+                    'Authorization' => 'Bearer '.$daily->getAccessToken(),
+                ],
             ]);
+
             return $daily;
         });
     }
