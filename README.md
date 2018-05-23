@@ -82,3 +82,7 @@ DailyMotion::file($url)->post('/me/videos',[
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/PHPJunior/dailymotion/badge.svg?style=beer-square)](https://beerpay.io/PHPJunior/dailymotion)  [![Beerpay](https://beerpay.io/PHPJunior/dailymotion/make-wish.svg?style=flat-square)](https://beerpay.io/PHPJunior/dailymotion?focus=wish)
