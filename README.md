@@ -79,6 +79,10 @@ DailyMotion::file($url)->post('/me/videos',[
 
 - All Contributors
 
+## Full Documentation
+
+Read Full Documentation [here](https://developer.dailymotion.com/)
+
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
