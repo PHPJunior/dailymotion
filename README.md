@@ -58,9 +58,7 @@ To call a method , use the get, post or delete methods as follow:
 ```php
 $result = DailyMotion::get( 
     '/videos', [
-        'fields' => [
-            'id', 'title', 'owner'
-        ]
+        'fields' => 'id,title,owner'
     ]);
 ```
 
