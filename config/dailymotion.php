@@ -6,7 +6,6 @@
  * Time: 12:31 PM.
  */
 
-
 /*
 |--------------------------------------------------------------------------
 | Dailymotion
@@ -28,5 +27,5 @@ return [
     'client_secret' => 'client_secret',
     'username'      => 'username',
     'password'      => 'password',
-    'scope'         => 'manage_videos userinfo manage_playlists manage_user_settings manage_applications'
+    'scope'         => 'manage_videos userinfo manage_playlists manage_user_settings manage_applications',
 ];
